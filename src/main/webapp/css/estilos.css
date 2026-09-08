@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f6f9;
+}
+
+.container {
+    max-width: 650px;
+}
+
+h1 {
+    font-size: 26px;
+    color: #1e3a8a; /* Azul Marino */
+    margin-bottom: 20px;
+}
+
+/* Botón Azul */
+button {
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1e3a8a; /* Azul Marino */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #2563eb; /* Azul más vivo al pasar el mouse */
+}
+
+/* Tabla con tono Azul */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid #1e3a8a;
+}
+
+th {
+    background-color: #1e3a8a; /* Encabezado Azul */
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #334155;
+}
+
+/* Filas alternadas para mejor lectura */
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Caja de búsqueda */
+#buscar {
+    margin-top: 20px;
+    padding: 9px 12px;
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
